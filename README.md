@@ -1,4 +1,4 @@
-<img src="images/sp4r_action.png" width=50% alt="Riemann sphere">
+<img src="images/sp4r_action.png" width=65% alt="Riemann sphere">
 
 *English below*
 
@@ -15,6 +15,8 @@ Ce programme permet de visualiser de manière interactive des transformations su
 
 N.B. Si un fichier texte s'ouvre, cliquez sur le bouton droit de la souris et cliquez sur *Ouvrir avec* [votre navigateur web favori]. 
 
+--------------------------------------
+
 ## Riemann sphere
 
 This program lets you visualise in an interactive way transformations on the Riemann sphere directly on the internet. 
@@ -26,7 +28,7 @@ This program lets you visualise in an interactive way transformations on the Rie
 * In your *Downloads* directory, you should see ``riemannsphere-vx.zip``, which you can decompress (extract).
 * In the new *riemannsphere-vx* directory, double-click on ``index.html``.
 
-N.B. If a text file opens, right-click on your mouse and click on *Open with* [your favorite web browser].
+N.B. If a text file opens, right-click on it and click on *Open with* [your favorite web browser].
 
 ## License 
 
