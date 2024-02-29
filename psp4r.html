@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Sp(4,R)</title>
+        <title>PSp(4,R)</title>
         <link rel="icon" href="images/riemann_sphere">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="mathematics, geometry, visualisation, mobius, symplectic, group, veronese, lagrangian">
@@ -26,8 +26,8 @@
         </script>
     </head>
     <body>
-        <header><a href="index.html"><input type="button" value="Home"></a> <a href="sp4r-fr.html"><input type="button" value="Français"></a></header>
-        <h1>\(\mathrm{Sp}(4, \mathbb{R})\)</h1>
+        <header><a href="index.html"><input type="button" value="Home"></a> <a href="psp4r-fr.html"><input type="button" value="Français"></a></header>
+        <h1>\(\mathrm{PSp}(4, \mathbb{R})\)</h1>
         
         <p>
             Let \(V\) be a vector space and let \(K\) be a field. A <i>symplectic bilinear form</i> on \(V\) is a bilinear map 
@@ -39,23 +39,26 @@
         </ol>
         <p>
             A <i>symplectic vector space</i> is a vector space equipped with a symplectic bilinear form. Also, by fixing a basis, 
-            it's possible to represent the symplectic bilinear form \(\omega\) by a matrix \(\Omega\). 
+            it's possible to represent the symplectic bilinear form \(\omega\) by a matrix \(\Omega\).
         </p>
 
         <p>
             The <i>symplectic group</i>, denoted \(\mathrm{Sp}(2n, K)\), is the group of linear transformations of a symplectic \(K\)-vector space 
             of dimension \(2n\) preserving the symplectic bilinear form. In our case, we are interested in the group 
-            \[\mathrm{Sp}(4, \mathbb{R}) = \{M \in M_{4}(\mathbb{R}) \mid M^{T}\Omega M = \Omega\},\] which is a group of \(10\) dimensions. 
+            \[\mathrm{Sp}(4, \mathbb{R}) = \{M \in M_{4}(\mathbb{R}) \mid M^{T}\Omega M = \Omega\},\] 
+            and more precisely by the <i>projective symplectic group</i>
+            \[\mathrm{PSp}(4,\mathbb{R}) = \mathrm{Sp}(4,\mathbb{R})/\{-I,I\}.\]
+            It is a group of \(10\) dimensions. 
         </p>
 
         <p>
-            Let's consider the group of Möbius transformations as a subgroup of \(\mathrm{GL}(4,\mathbb{R})\). This group 
-            is a subgroup of \(\mathrm{Sp}(4, \mathbb{R})\) of \(6\) dimensions. By parameterizing the \(4\) other dimensions with sliders, we obtain 
-            the entirety of \(\mathrm{Sp}(4, \mathbb{R})\). The Möbius transformations are selected the same way that is described in their <a href="mobius.html">dedicated section</a>. 
+            Let's consider the group of Möbius transformations \(\mathcal{Möb}\) as a subgroup of \(\mathrm{PGL}(4,\mathbb{R})\). This group 
+            is a subgroup of \(\mathrm{PSp}(4, \mathbb{R})\) of \(6\) dimensions. By parameterizing the \(4\) other dimensions with sliders, we obtain 
+            the entirety of \(\mathrm{PSp}(4, \mathbb{R})\). The Möbius transformations are selected the same way that is described in their <a href="mobius.html">dedicated section</a>. 
         </p>
 
         <p>
-            On the left, we visualise the action of \(\mathrm{Sp}(4, \mathbb{R})\) on isotropic flags (visualised as oriented circles with a point), and on the right, on the Veronese surface. 
+            On the left, we visualise the action of \(\mathrm{PSp}(4, \mathbb{R})\) on isotropic flags (visualised as oriented circles with a point), and on the right, on the Veronese curve. 
         </p>
 
         <div class="picture_box">
